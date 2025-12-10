@@ -10,7 +10,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "serve-storybook": "npx serve storybook-static -p 3000",
-    "preview-storybook": "npx serve storybook-static"
+    "preview-storybook": "npx serve storybook-static",
+    "plop": "plop"
   },
   "dependencies": {
     "@storybook/addon-actions": "^9.0.8",
@@ -38,6 +39,7 @@
     "eslint-config-next": "15.5.6",
     "eslint-plugin-storybook": "^9.1.13",
     "playwright": "^1.56.1",
+    "plop": "^4.0.4",
     "storybook": "^9.1.13",
     "tailwindcss": "^4",
     "typescript": "^5",
